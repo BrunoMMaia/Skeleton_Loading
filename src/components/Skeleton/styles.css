@@ -1,0 +1,30 @@
+.skeleton {
+
+    position: relative;
+  
+  }
+  
+  .overlay {
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(256, 256, 256, 0.3);
+    box-shadow: 0px 0px 20px 30px rgba(256, 256, 256, 0.2);
+    animation: slider 1.2s infinite;
+  
+  }
+  
+  @keyframes slider {
+  
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(500%);
+    }
+  
+  }
